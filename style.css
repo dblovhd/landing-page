@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header {
+    background-color:#1F2937;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-content-button {
+    width: 300px;
+}
+
+.header-img {
+    background-color: gray;
+    width: 300px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color:#1F2937;
+    color: white;
+}
+
+ul{
+    display: flex;
+    gap:20px;
+}
