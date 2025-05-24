@@ -1,46 +1,105 @@
+/*added */
+/*apply 100vh as minimum height to take up enture vertical height of screen. changed flex-direction to column with flex:1 applied to content container moves footer to bottom of screen */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
-
-.header {
+/*container to style all sections except footer. flex:1 pushes footer section to bottom of page */
+.page-content {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+/*container to apply style to header section*/
+.header-section {
     background-color:#1F2937;
     color: white;
-    padding-left: 300px;
-    padding-right: 300px;
-
+    padding-left: 250px;
+    padding-right: 250px;
 }
-
+/*positioning of header logo and links*/
 .logo-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/*apply styles to header content and image*/
 .header-content-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
-
+/*set a min width for header content and button*/
 .title-content-button {
-    width: 300px;
+    min-width: 300px;
 }
-
+/*apply styles to header image*/
 .header-img {
     background-color: gray;
-    width: 300px;
+    min-width: 300px;
+}
+/*container to apply style to box section*/
+.box-section{
+    text-align: center;
+}
+/*position each box item and text inline using flex*/
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.quote-section{
+/*container to style quote section*/
+.quote-section {
     background-color: #E5E7EB;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+/*apply styles to all content in quote section*/
+.quote-author {
+    width: auto;
+    text-align: center;
+}
+/*apply separate styles to quote author to achive desire positioning*/
+.author {
+    text-align: right;
+}
+/*container to style and center */
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+/*position blue signup box*/
+.content-signup-box {
+    display: flex;
+    gap: 100px;
+    background-color: #3882F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+/*apply style to footer*/
 .footer {
+    width: auto;
     background-color:#1F2937;
     color: white;
+    text-align: center;
 }
 
+/*position items in ul html element inline with 20px space between items*/
 ul{
     display: flex;
     gap:20px;
