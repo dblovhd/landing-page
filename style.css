@@ -18,14 +18,23 @@ body {
 .header-section {
     background-color:#1F2937;
     color: white;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
 }
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 /*positioning of header logo and links*/
 .logo-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
 }
 /*apply styles to header content and image*/
 .header-content-image {
@@ -36,12 +45,16 @@ body {
 }
 /*set a min width for header content and button*/
 .title-content-button {
-    min-width: 300px;
+    min-width: 450px;
 }
 /*apply styles to header image*/
 .header-img {
     background-color: gray;
     min-width: 300px;
+    align-self: stretch;
+    align-content: center;
+    text-align: center;
+
 }
 /*container to apply style to box section*/
 .box-section{
@@ -101,6 +114,25 @@ body {
 
 /*position items in ul html element inline with 20px space between items*/
 ul{
+    padding: 0;
     display: flex;
     gap:20px;
+    list-style-type: none;
 }
+
+a, .description{
+    color:#E5E7EB;
+    font-size: 18px;   
+    text-decoration: none; 
+    padding: 8px;
+}
+
+.header-sign-up {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 20px;
+    font-weight: 800;
+    color: #E5E7EB;
+}
+
