@@ -95,19 +95,27 @@ add spacing between box and subtext*/
 /*container to style quote section*/
 .quote-section {
     background-color: #E5E7EB;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-/*apply styles to all content in quote section*/
+/*apply styles to center quote and quote author in section*/
 .quote-author {
     width: auto;
-    text-align: center;
 }
-/*apply separate styles to quote author to achive desire positioning*/
+/*apply style and positionoing to quote*/
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+/*apply separate styles to quote author to achive desired positioning*/
 .author {
     text-align: right;
+    font-weight: 800;
 }
 /*container to style and center */
 .signup-section {
