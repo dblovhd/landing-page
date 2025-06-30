@@ -59,12 +59,37 @@ body {
 /*container to apply style to box section*/
 .box-section{
     text-align: center;
+    padding-bottom: 100px;
 }
+/*style box section title*/
+.box-section-title {
+    font-weight: 900;
+    font-size: 36px;
+    padding: 50px;
+}
+
 /*position each box item and text inline using flex*/
 .boxes {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+}
+/*determine width of box; center align subtext below each box */
+.items {
+    width: 200px;
+    text-align: center;
+}
+
+/*determine the size, border style and border color of box; round borders;
+add spacing between box and subtext*/
+.item {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    margin-bottom: 10px;
+    border-color: #3882F6;
+    border-radius: 25px;
 }
 
 /*container to style quote section*/
