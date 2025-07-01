@@ -157,6 +157,11 @@ font-size: 14px;
     color: white;
     text-align: center;
 }
+/*adding padding to footer text*/
+.footer-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 /*position items in ul html element inline with 20px space between items*/
 ul{
