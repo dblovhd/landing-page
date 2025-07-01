@@ -117,26 +117,39 @@ add spacing between box and subtext*/
     text-align: right;
     font-weight: 800;
 }
-/*container to style and center */
-.signup-section {
+/*container to style and center cta box */
+.cta-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
-/*position blue signup box*/
-.content-signup-box {
+/*position cta text and cta button inline and position style both elements*/
+.cta-signup-box {
     display: flex;
     gap: 100px;
     background-color: #3882F6;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 5px;
 }
+/*apply style to cta title*/
+.cta-title {
+color: white;
+font-size: 18px;
+font-weight: 800;
+}
+
+/*apply style to subtext under cta title*/
+.cta-subtext {
+color: white;
+font-size: 14px;
+}
+
 /*apply style to footer*/
 .footer {
     width: auto;
@@ -159,13 +172,24 @@ a, .description{
     text-decoration: none; 
     padding: 8px;
 }
-
-.header-sign-up {
+/*apply style to sign up button in header section*/
+.header-button {
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
     padding: 6px 20px;
     font-weight: 800;
     color: #E5E7EB;
+}
+/*apply style to cta button*/
+.cta-button {
+    background-color: #3882F6;
+    border-color: white ;
+    border-style: solid;
+    color: white;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 800;
 }
 
